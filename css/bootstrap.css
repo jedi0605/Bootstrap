@@ -6,63 +6,6 @@
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 
-body, html, main {
- /* important */
- height: 100%;
-}
- 
-.cd-fixed-bg {
- min-height: 100%;
- background-size: cover;
- background-attachment: fixed;
- background-repeat: no-repeat;
- background-position: center center;
-}
- 
-.cd-fixed-bg.cd-bg-1 {
- background-image: url("../img/first-img.jpg");
-}
-.cd-fixed-bg.cd-bg-2 {
- background-image: url("../img/cd-background-2.jpg");
-}
-.cd-fixed-bg.cd-bg-3 {
- background-image: url("../img/cd-background-3.jpg");
-}
-.cd-fixed-bg.cd-bg-4 {
- background-image: url("../img/cd-background-4.jpg");
-}
- 
-.cd-scrolling-bg {
- min-height: 100%;
-}
-
-.cd-fixed-bg h1{
-  position: absolute;
-  left: 30%;
-  /*margin-left:10%; */
-  top: 90%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 90%;
-  max-width: 1170px;
-  text-align: center;
-  font-size: 30px;
-  font-size: 4rem;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  color: white;
-}
-
-.cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 90%;
-  max-width: 768px;
-  margin: 0 auto;
-}
 
 html {
   font-family: sans-serif;
