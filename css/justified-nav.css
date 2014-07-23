@@ -90,6 +90,9 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
+  body {
+  padding-top: 0px;
+  }
   .masthead,
   .marketing,
   .footer {
